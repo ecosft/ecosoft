@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Eco Soft — ИИ‑агенты и боты • IT Outsource под SLA</title>
-  <meta name="description" content="Eco Soft — ИИ‑агенты для продаж и поддержки, интеграция с CRM и телефонией. IT Outsource с прозрачными SLA: helpdesk, серверы, сети, DevOps." />
+  <title>Eco Soft — Компьютерная помощь и Разработка сайтов</title>
+  <meta name="description" content="Eco Soft — Профессиональная установка Windows, программ, драйверов. Разработка сайтов любой сложности: лэндинги, визитки, интернет-магазины." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -66,15 +66,10 @@
     .card h3{margin:4px 0 8px;font-size:20px}
     .muted{color:var(--muted)}
 
-    .steps{counter-reset:st}
-    .step{position:relative;padding-left:52px}
-    .step:before{counter-increment:st;content:counter(st);position:absolute;left:0;top:0;width:36px;height:36px;border-radius:10px;display:grid;place-items:center;background:var(--badge);border:1px solid var(--stroke);color:var(--muted);font-weight:700}
-
     .pricing .plan{display:flex;flex-direction:column;gap:14px}
-    .price{font-size:34px;font-weight:800}
+    .price{font-size:24px;font-weight:800;margin-bottom:8px}
     .plan ul{margin:0;padding-left:18px;color:var(--muted)}
     .plan li{margin:6px 0}
-    .plan .btn{margin-top:8px}
     .plan.pop{border:2px solid var(--primary);transform:translateY(-2px)}
 
     form{display:grid;gap:12px}
@@ -95,12 +90,12 @@
   <span>Eco Soft</span>
 </a>
       <nav class="menu" id="menu">
-        <a href="#ai">ИИ‑агенты</a>
-        <a href="#outsourcing">IT Outsource</a>
-        <a href="#cases">Кейсы</a>
-        <a href="#pricing">Тарифы</a>
-        <a href="#about">О компании</a>
-        <a href="#contact" class="btn btn-primary">Обсудить проект</a>
+        <a href="#services">Услуги</a>
+        <a href="#packages">Пакеты</a>
+        <a href="#software">Программы</a>
+        <a href="#web">Создание сайтов</a>
+        <a href="#about">О нас</a>
+        <a href="#contact" class="btn btn-primary">Связаться</a>
       </nav>
       <button class="burger btn btn-ghost" id="burger">Меню</button>
     </div>
@@ -109,131 +104,114 @@
   <main id="top">
     <section class="hero">
       <div class="container">
-        <span class="badge">ИИ • Голос • Чат • Интеграции</span>
-        <h1>ИИ‑агенты, которые продают. IT‑аутсорсинг, который не подводит.</h1>
-        <p>Eco Soft проектирует и внедряет голосовых и чат‑агентов, подключает WhatsApp/Telegram и телефонию, обучает на ваших материалах (RAG) и фиксирует KPI. Параллельно берём на себя поддержку пользователей и инфраструктуры: серверы, сети, облака, DevOps — с прозрачными SLA.</p>
+        <span class="badge">Kaspi Рассрочка • Выезд • Удалённо</span>
+        <h1>Профессиональная IT-помощь и веб-разработка.</h1>
+        <p>Установка Windows, Microsoft Office, драйверов, антивирусов и любых специализированных программ. Возможна удаленная установка через TeamViewer или AnyDesk. Также создаем современные сайты любой сложности под ключ.</p>
         <div class="hero-cta">
-          <a href="#contact" class="btn btn-primary">Запустить пилот за 14 дней</a>
-          <a href="#cases" class="btn btn-ghost">Смотреть кейсы</a>
+          <a href="#contact" class="btn btn-primary">Оставить заявку</a>
+          <a href="#packages" class="btn btn-ghost">Смотреть пакеты</a>
         </div>
         <div class="trust">
-          <span class="badge">Ответ ≤ 2 мин</span>
-          <span class="badge">SLA 99.9%</span>
-          <span class="badge">Омниканал: Голос • WhatsApp • Telegram • Сайт</span>
+          <span class="badge">Опыт работы — 8 лет</span>
+          <span class="badge">Доступна Kaspi Рассрочка</span>
+          <span class="badge">Установка лицензионного ПО</span>
         </div>
       </div>
     </section>
 
-    <section id="ai" class="section">
+    <section id="services" class="section">
       <div class="container">
-        <h2 class="title">ИИ‑агенты и боты под ваши процессы</h2>
-        <p class="subtitle">От квалификации лидов до закрытия сделок и поддержки клиентов — агенты работают по вашим правилам.</p>
+        <h2 class="title">Базовые IT-услуги</h2>
+        <p class="subtitle">Быстрая и качественная настройка вашего рабочего места.</p>
         <div class="grid grid-3" style="margin-top:22px">
           <div class="card">
-            <h3>ИИ‑продажники</h3>
-            <p class="muted">Входящие и исходящие: квалификация, назначение встреч/демо, доведение до оплаты, напоминания.</p>
+            <h3>Установка Windows</h3>
+            <p class="muted">Установка лицензионных версий Windows 11, 10, 8, 7. Полная подготовка системы к работе.</p>
           </div>
           <div class="card">
-            <h3>Саппорт‑агенты</h3>
-            <p class="muted">FAQ, статусы заявок, маршрутизация, NPS/CSAT‑опросы, эскалации по регламенту.</p>
+            <h3>Microsoft Office</h3>
+            <p class="muted">Установка лицензионного пакета Office: Word, Excel, PowerPoint и другие необходимые программы.</p>
           </div>
           <div class="card">
-            <h3>Голосовые агенты</h3>
-            <p class="muted">Приём звонков, IVR, обратные звонки, автообзвоны, напоминания о платежах.</p>
-          </div>
-        </div>
-
-        <div class="grid grid-2" style="margin-top:28px">
-          <div class="card">
-            <h3>Техстек</h3>
-            <p class="muted">LLM‑оркестрация, RAG на корпоративных данных, векторные БД, инструменты‑функции, ASR/TTS, guardrails, аналитика диалогов.</p>
-          </div>
-          <div class="card steps">
-            <h3>Запуск за 14 дней</h3>
-            <div class="step"><strong>Диагностика:</strong> цели, KPI, источники данных</div>
-            <div class="step"><strong>Прототип:</strong> 1–2 сценария, подключение каналов</div>
-            <div class="step"><strong>Интеграции:</strong> CRM/ERP/телефония/вебхуки</div>
-            <div class="step"><strong>Обучение:</strong> RAG на инструкциях/FAQ</div>
-            <div class="step"><strong>Пилот:</strong> сбор метрик 1–2 недели</div>
+            <h3>Настройка периферии</h3>
+            <p class="muted">Поиск и установка любых драйверов, а также удаленная настройка принтеров и сканеров.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="outsourcing" class="section">
+    <section id="packages" class="section">
       <div class="container">
-        <h2 class="title">IT Outsource с прозрачными SLA</h2>
-        <p class="subtitle">Поддержка пользователей 24/7, серверы и сети, облака и DevOps. Регламенты, эскалации, отчёты.</p>
-        <div class="grid grid-4" style="margin-top:22px">
-          <div class="card"><h3>Helpdesk L1‑L3</h3><p class="muted">Тикеты, удалённая помощь, on‑site по запросу.</p></div>
-          <div class="card"><h3>Инфраструктура</h3><p class="muted">Windows/Linux‑сервера, виртуализация, резервное копирование.</p></div>
-          <div class="card"><h3>Сети</h3><p class="muted">Маршрутизация, Wi‑Fi, VPN, мониторинг, SD‑WAN.</p></div>
-          <div class="card"><h3>Облака и DevOps</h3><p class="muted">CI/CD, контейнеризация, IaC, наблюдаемость.</p></div>
+        <h2 class="title">Выгодные пакеты</h2>
+        <p class="subtitle">Комплексная настройка «всё включено» для ноутбуков и компьютеров.</p>
+        <div class="grid grid-2" style="margin-top:22px">
+          <div class="card pricing plan">
+            <span class="badge">Полный пакет</span>
+            <div class="price">Windows + Office</div>
+            <div class="muted">Оптимально для базовых задач</div>
+            <ul>
+              <li>Установка Windows 11, 10, 8, 7 (лицензия)</li>
+              <li>Microsoft Office (Word, Excel, PowerPoint и т.д.)</li>
+              <li>Установка всех необходимых драйверов</li>
+            </ul>
+          </div>
+          <div class="card pricing plan pop">
+            <span class="badge">Популярный пакет</span>
+            <div class="price">С ним дешевле</div>
+            <div class="muted">Готовое рабочее место под ключ</div>
+            <ul>
+              <li>Установка Windows (лицензия) и драйверов</li>
+              <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+              <li>Установка надежного антивируса</li>
+              <li>7 стандартных программ: Google Chrome, Adobe Acrobat Pro, WinRAR, мессенджеры, NCALayer, Zoom</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="cases" class="section">
+    <section id="software" class="section">
       <div class="container">
-        <h2 class="title">Кейсы и результаты</h2>
-        <p class="subtitle">Коротко и по делу: что внедрили и как это повлияло на метрики.</p>
+        <h2 class="title">Установка профессионального ПО</h2>
+        <p class="subtitle">Огромный список софта любого года для специалистов любых направлений.</p>
         <div class="grid grid-3" style="margin-top:22px">
           <div class="card">
-            <h3>eCommerce</h3>
-            <p class="muted">ИИ‑продажник в WhatsApp. <strong>+27% конверсия</strong> из лида в диалог за 3 недели.</p>
+            <h3>Дизайн и Графика</h3>
+            <p class="muted">Adobe Photoshop, Illustrator, InDesign, Lightroom, CorelDraw, Art Cut и другие.</p>
           </div>
           <div class="card">
-            <h3>EdTech</h3>
-            <p class="muted">Саппорт‑бот на сайте/Telegram. <strong>‑40% нагрузка</strong> на операторов, 85% FAQ закрыто ИИ.</p>
+            <h3>Архитектура и 3D</h3>
+            <p class="muted">AutoCAD, 3DSMax, Revit, ArchiCAD, SketchUp, Lumion, Corona Render, V-Ray, Cinema4D, KOMPAS-3D.</p>
           </div>
           <div class="card">
-            <h3>Fin‑services</h3>
-            <p class="muted">Голосовой агент для напоминаний. <strong>+18% возвраты</strong> в срок, прозрачная аналитика звонков.</p>
+            <h3>Видео, Бухгалтерия и др.</h3>
+            <p class="muted">Premiere Pro, After Effects, DaVinci, Sony Vegas Pro, Movavi, 1C, Hetman, Topaz и множество других программ.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="pricing" class="section pricing">
+    <section id="web" class="section pricing">
       <div class="container">
-        <h2 class="title">Тарифы</h2>
-        <p class="subtitle">Готовые пакеты — стартуйте быстро. Enterprise — по КП.</p>
+        <h2 class="title">Создание сайтов под ключ</h2>
+        <p class="subtitle">Делаем сайты любой сложности: от визиток до магазинов.</p>
         <div class="grid grid-3" style="margin-top:22px">
           <div class="card plan">
-            <span class="badge">Пилот</span>
-            <div class="price">KZT/EUR</div>
-            <div class="muted">14 дней, 1–2 сценария, 1 канал, базовая аналитика</div>
-            <ul>
-              <li>Интеграция (CRM / вебхуки)</li>
-              <li>Обучение на ваших FAQ (RAG)</li>
-              <li>Отчёт по KPI</li>
-            </ul>
-            <a href="#contact" class="btn btn-ghost">Запросить</a>
+            <span class="badge">Быстрый старт</span>
+            <div class="price">Лэндинг</div>
+            <div class="muted">Одностраничный сайт для запуска рекламы и сбора заявок. Высокая конверсия.</div>
           </div>
           <div class="card plan pop">
-            <span class="badge">Бизнес</span>
-            <div class="price">KZT/EUR / мес</div>
-            <div class="muted">До 5 сценариев, омниканал, отчёты, поддержка</div>
-            <ul>
-              <li>WhatsApp • Telegram • Голос • Сайт</li>
-              <li>Сквозная аналитика, QA диалогов</li>
-              <li>SLA по реакции/восстановлению</li>
-            </ul>
-            <a href="#contact" class="btn btn-primary">Выбрать пакет</a>
+            <span class="badge">Представительство</span>
+            <div class="price">Сайт-визитка</div>
+            <div class="muted">Идеальное решение для бизнеса и специалистов. Описание услуг, портфолио, контакты.</div>
           </div>
           <div class="card plan">
-            <span class="badge">Enterprise</span>
-            <div class="price">КП</div>
-            <div class="muted">Кастом‑сценарии, SSO, комплаенс, выделенная команда</div>
-            <ul>
-              <li>Глубокие интеграции (ERP/телефония)</li>
-              <li>Расширенный SLA</li>
-              <li>Отдельные среды и доступы</li>
-            </ul>
-            <a href="#contact" class="btn btn-ghost">Запросить КП</a>
+            <span class="badge">Продажи</span>
+            <div class="price">Интернет-магазин</div>
+            <div class="muted">Полноценный каталог с товарами, корзиной и интеграцией модуля оплаты онлайн.</div>
           </div>
         </div>
-        <p class="note" style="margin-top:12px">Примечание: стоимость голоса/ASR/TTS и исходящих звонков рассчитывается отдельно по объёму. Хранение данных и лимиты RAG — по уровню тарифа.</p>
       </div>
     </section>
 
@@ -241,16 +219,16 @@
       <div class="container grid grid-2">
         <div>
           <h2 class="title">О компании</h2>
-          <p class="subtitle">Eco Soft — команда инженеров по ИИ и IT‑инфраструктуре. Запускаем пилоты быстро, фиксируем KPI, подписываем SLA, уделяем внимание безопасности и комплаенсу.</p>
+          <p class="subtitle">Eco Soft — ваш надежный технический партнер. За 8 лет работы мы настроили тысячи компьютеров и разработали десятки сайтов. Мы ценим ваше время: многие услуги оказываем удаленно, даем гарантию на работу и предлагаем удобную оплату в рассрочку.</p>
           <div class="row" style="margin-top:14px">
-            <span class="badge">Опыт: LLM, RAG, интеграции</span>
-            <span class="badge">DevOps • SRE</span>
-            <span class="badge">Security & Logs</span>
+            <span class="badge">8 лет опыта</span>
+            <span class="badge">TeamViewer / AnyDesk</span>
+            <span class="badge">Kaspi Рассрочка</span>
           </div>
         </div>
         <div class="card">
           <h3>География и контакты</h3>
-          <p class="muted">Казахстан, Алматы</p>
+          <p class="muted">Казахстан, Астана</p>
           <p class="muted">Тел.: <a href="tel:+77476591981">+7 747 659 19 81</a></p>
           <p class="muted">Email: <a href="mailto:adletteinc@gmail.com">adletteinc@gmail.com</a></p>
         </div>
@@ -260,31 +238,30 @@
     <section id="contact" class="section">
       <div class="container grid grid-2">
         <div>
-          <h2 class="title">Обсудить проект</h2>
-          <p class="subtitle">Оставьте контакты — пришлём расчёт пилота и схему интеграций в течение дня.</p>
+          <h2 class="title">Оставить заявку</h2>
+          <p class="subtitle">Напишите нам — проконсультируем по программам или обсудим ваш будущий сайт.</p>
           <form id="lead-form">
-            <input type="text" name="name" placeholder="Имя" required>
-            <input type="text" name="company" placeholder="Компания" required>
-            <input type="tel" name="phone" placeholder="Телефон (WhatsApp): +7 747 659 19 81" required>
-            <input type="email" name="email" placeholder="Email: adletteinc@gmail.com" required>
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="tel" name="phone" placeholder="Телефон / WhatsApp" required>
             <select name="interest" required>
-              <option value="">Что интересно?</option>
-              <option>ИИ‑агенты и боты</option>
-              <option>IT Outsource</option>
-              <option>И то, и другое</option>
+              <option value="">Что вас интересует?</option>
+              <option>Установка Windows / Office</option>
+              <option>Пакетная установка (всё включено)</option>
+              <option>Установка профессиональных программ</option>
+              <option>Создание сайта</option>
+              <option>Другой технический вопрос</option>
             </select>
-            <textarea name="brief" placeholder="Кратко опишите задачу"></textarea>
-            <label class="note"><input type="checkbox" required> Согласен(на) с политикой конфиденциальности</label>
+            <textarea name="brief" placeholder="Кратко опишите, что нужно сделать"></textarea>
             <div class="row">
-              <button class="btn btn-primary" type="submit">Отправить</button>
+              <button class="btn btn-primary" type="submit">Отправить заявку</button>
               <a class="btn btn-ghost" id="whatsapp-link" href="#">Написать в WhatsApp</a>
             </div>
-            <p class="note">Ответим в течение 1–2 часов в рабочее время. Или пишите на <a href="mailto:adletteinc@gmail.com">adletteinc@gmail.com</a></p>
+            <p class="note">Отвечаем быстро. Также можете написать на <a href="mailto:adletteinc@gmail.com">adletteinc@gmail.com</a></p>
           </form>
         </div>
         <div class="card">
           <h3>Быстрая связь</h3>
-          <p class="muted">Казахстан, Алматы</p>
+          <p class="muted">Казахстан, Астана</p>
           <p class="muted">WhatsApp: <a href="https://wa.me/77476591981" target="_blank">+7 747 659 19 81</a></p>
         </div>
       </div>
@@ -293,8 +270,7 @@
 
   <footer>
     <div class="container row" style="justify-content:space-between;align-items:center">
-      <div>© <span id="y"></span> Eco Soft — ИИ‑агенты и IT Outsource</div>
-      <div class="note"></div>
+      <div>© <span id="y"></span> Eco Soft — IT-услуги и Веб-разработка</div>
     </div>
   </footer>
 
@@ -316,21 +292,13 @@
       const name=form?.elements['name']?.value||'';
       const interest=form?.elements['interest']?.value||'';
       const brief=form?.elements['brief']?.value||'';
-      const text=`Привет! Хочу обсудить проект в Eco Soft. Имя: ${name}. Интерес: ${interest}. Задача: ${brief}`;
+      const text=`Здравствуйте! Меня зовут ${name}. Интересует: ${interest}. Подробности: ${brief}`;
       window.open(waLink(text), '_blank');
     });
 
     form?.addEventListener('submit', async (e)=>{
       e.preventDefault();
-      const data=Object.fromEntries(new FormData(form).entries());
-      try{
-        // TODO: замените URL на ваш webhook/n8n/Make/CRM endpoint
-        const r=await fetch('https://example.com/webhook',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({source:'landing',...data,time:new Date().toISOString()})});
-        if(r.ok){alert('Спасибо! Мы свяжемся с вами в WhatsApp.'); form.reset();}
-        else{alert('Не удалось отправить. Напишите нам в WhatsApp.');}
-      }catch(err){
-        alert('Сеть недоступна. Напишите нам в WhatsApp.');
-      }
+      alert('Пожалуйста, воспользуйтесь кнопкой "Написать в WhatsApp", чтобы мы ответили вам моментально!');
     });
   </script>
 </body>
